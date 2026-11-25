@@ -76,10 +76,15 @@ In Finder, right-click any folder and choose **Services → Search by Percimoney
 
 ## Install
 
+The app isn't from the App Store, so macOS asks you to approve it once. It takes about a minute, and the same steps are in **How to Install** inside the download.
+
 1. **[Download the latest version](https://github.com/kendalpercimoney/search-by-percimoney-technologies-updates/releases/latest)** and open the `.dmg` file under *Assets*.
-2. Drag the app into **Applications**.
-3. The first time, right-click the app and choose **Open**, then **Open** again. macOS asks this for apps from outside the App Store.
-4. The welcome guide walks you through the rest.
+2. **Drag the app into Applications** yourself. Don't open it from the disk image, and don't use the app's *Move to Applications* button: macOS can't approve those copies, so it keeps asking.
+3. **Open it from Applications.** macOS says it can't verify the app: click **Done**.
+4. **Allow it:** open **System Settings → Privacy & Security**, scroll down to **Security**, and click **Open Anyway** next to the app. Enter your password or use Touch ID.
+5. **Open it again** from Applications and click **Open Anyway** when asked. The welcome guide takes it from there.
+
+You only do this once: updates install by themselves with no more approvals.
 
 **Needs:** a Mac with Apple silicon (M1 or later) and macOS 14 Sonoma or later. About 420 MB of disk space; the speech and image models are built in, so nothing else is downloaded.
 
