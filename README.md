@@ -90,7 +90,7 @@ You only do this once: updates install by themselves with no more approvals.
 
 ## How it works
 
-Speech is transcribed on your Mac with [Whisper](https://github.com/openai/whisper), running on the Neural Engine through [WhisperKit](https://github.com/argmaxinc/WhisperKit). Scenes are understood with Apple's [MobileCLIP](https://github.com/apple/ml-mobileclip), which matches your words to what's in each shot. Each folder keeps its search index in a small hidden file next to the videos, so searches are instant and nothing has to be re-done.
+Speech is transcribed on your Mac with [Whisper](https://github.com/openai/whisper), running on the Neural Engine through [WhisperKit](https://github.com/argmaxinc/WhisperKit). Scenes are understood with Apple's [MobileCLIP](https://github.com/apple/ml-mobileclip), which matches your words to what's in each shot. Everything it learns is kept in one catalogue inside the app, never in your video folders, so searches are instant. It recognises videos you move or rename, so nothing has to be re-done.
 
 ## Support
 
